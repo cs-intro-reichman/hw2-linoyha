@@ -9,10 +9,10 @@ public class Cheers {
             while ( i < cheers.length()) {
                 char c = cheers.charAt(i);
                 if(letter.indexOf(c) != -1) {
-                System.out.println("Give me  an "+c +": " +c +"!");
+                System.out.println("Give me an "+c +": " +c +"!");
                 }
                 else {
-                System.out.println("Give me a "+c +": " +c +"!");
+                System.out.println("Give me a  "+c +": " +c +"!");
                 }
                 i++;
             }
