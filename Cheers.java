@@ -12,7 +12,7 @@ public class Cheers {
                 System.out.println("Give me an "+c +": " +c +"!");
                 }
                 else {
-                System.out.println("Give me a "+c +": " +c +"!");
+                System.out.println("Give me a  "+c +": " +c +"!");
                 }
                 i++;
             }

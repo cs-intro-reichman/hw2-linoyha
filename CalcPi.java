@@ -5,9 +5,15 @@ public class CalcPi {
 		int denominator = 3;
 		double sum =1;
 		for (int i=0; i<num; i++) {
-			sum =
-
-
+			if (i % 2 == 0) {
+				sum = sum - (double) 1 / denominator;
+			}
+			else {
+				sum = sum + (double) 1 / denominator;
+			}
+			denominator = denominator + 2;
+			i++;
+			
 		}
 
 	}
